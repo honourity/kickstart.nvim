@@ -1,0 +1,9 @@
+return {
+  'Mathijs-Bakker/godotdev.nvim',
+  dependencies = { 'nvim-lspconfig', 'nvim-dap', 'nvim-dap-ui', 'nvim-treesitter' },
+  editor_host = '127.0.0.1',
+  editor_port = 6005,
+  debug = 6006,
+  csharp = true,
+  autostart_editor_server = true,
+}
